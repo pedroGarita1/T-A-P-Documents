@@ -1,0 +1,80 @@
+body {
+    background-color: lightblue;
+}
+
+#fondo_id {
+    background-color: lightgreen;
+}
+
+.fondo_por_clase {
+    background-color: khaki;
+}
+
+header {
+    background-color: grey;
+    width: 900px;
+    height: 150px;
+    position: relative;
+    float: left;
+    left: 230px;
+    margin-top: 30px;
+}
+
+nav {
+    background-color: blue;
+    width: 900px;
+    height: 50px;
+    position: relative;
+    float: left;
+    left: 230px;
+    margin-top: 30px;
+}
+
+#articulo {
+    background-color: crimson;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    float: left;
+    left: 230px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+#menu_vertical {
+    background-color: rgb(20, 147, 220);
+    width: 250px;
+    height: 600px;
+    position: relative;
+    float: left;
+    left: 230px;
+    margin-top: 30px;
+}
+
+.pie_de_pagina {
+    background-color: blue;
+    width: 900px;
+    height: 50px;
+    position: relative;
+    float: left;
+    left: 230px;
+    margin-top: 10px;
+}
+
+#seccion_1 {
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#seccion_2 {
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin-top: 80px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estilos</title>
+    <!--etiqueta style va dentro de head para almacenar nuestros estilos-->
+    <style>
+        /*
+        si use el atributo id="nombre dado" aqui debo utulizar #nombre dad
+        */
+        
+        #tabla {
+            background-color: mediumslateblue;
+        }
+        
+        #estilo1 {
+            background-color: blue;
+            /*Color de texto con color:nombre en ingles*/
+            color: yellow;
+        }
+    </style>
+</head>
+<!--Sirve  para dar color el cuerpo del documento-->
+<!--<body style="background-color: nombre color en ingles;">-->
+<!--<body style="background-color: rgb(200, 40, 4);"> con valores en cada color-->
+<!--alt+shift+f sirve para identar de forma correcta-->
+
+<body style="background-color: rgb(200, 40, 4);">
+    <table style="background-color: green;">
+        <tr style="background-color: blue;">
+            <!--tr significa table row es fila de tabla y solo se utiliza dentro de una tabla-->
+            <td style="background-color: brown;">item 1</td>
+            <!--td significa table data y es el item de la tabla(unico dentro de tr)-->
+        </tr>
+        <tr>
+            <td>item 1</td>
+            <td>item 2</td>
+        </tr>
+        <tr>
+            <td>item 1</td>
+            <td>item 2</td>
+            <td>item 3</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <!--Segunda tabla-->
+    <table id="tabla">
+        <tr>
+            <th style="background-color: yellow;">nombre</th>
+            <th>apellido</th>
+            <th>edad</th>
+        </tr>
+        <tr></tr>
+        <tr>
+            <!--tr significa table row es fila de tabla y solo se utiliza dentro de una tabla-->
+            <td id="estilo1">item 1</td>
+            <!--td significa table data y es el item de la tabla(unico dentro de tr)-->
+        </tr>
+        <tr>
+            <td>item 1</td>
+            <td>item 2</td>
+        </tr>
+        <tr>
+            <td>item 1</td>
+            <td>item 2</td>
+            <td>item 3</td>
+        </tr>
+    </table>
+</body>
+
+</html>
